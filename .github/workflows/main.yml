@@ -12,7 +12,7 @@ env:
   EB_APPLICATION_NAME       : "Ada"
   EB_ENVIRONMENT_NAME       : "Ada-env"
   DEPLOY_PACKAGE_NAME       : "ada-${{ github.sha }}.zip"
-  AWS_REGION_NAME           : "us-east-2"
+  AWS_REGION_NAME           : "us-east-1"
 
 on: 
   push:
