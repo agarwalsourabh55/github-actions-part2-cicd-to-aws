@@ -9,9 +9,9 @@
 name: CI-CD-Pipeline-to-AWS-ElasticBeanstalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "elasticbeanstalk-us-east-1-601730049931"
-  EB_APPLICATION_NAME       : "my-flask"
-  EB_ENVIRONMENT_NAME       : "Myflask-env"
-  DEPLOY_PACKAGE_NAME       : "my-flask-${{ github.sha }}.zip"
+  EB_APPLICATION_NAME       : "my-kedro-new"
+  EB_ENVIRONMENT_NAME       : "Mykedronew-env"
+  DEPLOY_PACKAGE_NAME       : "flask-app-${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-east-1"
 
 on: 
